@@ -1,0 +1,34 @@
+
+/**{*/
+    /*/!*   *通配符：选择到所有的标签   企业里面不推荐使用 *    *!/*/
+    /*margin:0;/!*外边距*!/*/
+    /*padding:0;/!*内边距*!/*/
+/*}*/
+body,ul,li{
+    margin:0;
+    padding:0;
+}
+#box{/* # id选择器*/
+    width:1100px;/*宽度*/
+    height:300px;/*高度*/
+    margin:50px auto;/*上下为50px 左右自动（居中）*/
+}
+#box ul li{/*混合选择器*/
+    list-style:none;/*去除前面的小黑圆点*/
+    width:250px;
+    float:left;/*浮动：左浮动  与父元素的左端对齐依次的往右端显示*/
+    margin:7px;
+    box-shadow:0px 0px 5px #000;
+    padding:5px;
+}
+img{
+    width:250px;
+    transition:1s;/*css3动画过渡*/
+}
+/*
+    企业标准规范：
+         提高代码的可维护利用性
+         提高网站响应速度
+*/
+
+
